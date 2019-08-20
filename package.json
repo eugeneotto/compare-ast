@@ -1,10 +1,11 @@
 {
   "name": "compare-ast",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Determine if two strings of JavaScript have equivalent abstract syntax trees.",
   "main": "lib/compare.js",
   "dependencies": {
-    "esprima": "~1.0.4"
+    "esprima": "~4.0.1",
+    "package.json": "^2.0.1"
   },
   "devDependencies": {
     "jshint": "~2.4.1",
